@@ -1,144 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>GameCentral</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <style>
-    p {
-      font-size: 150%;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameCentral - Top 10 Games</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        p {
+            font-size: 150%;
+        }
 
-    img.img-fluid {
-      max-width: 512px;
-    }
-  </style>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        img.img-fluid {
+            max-width: 512px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html">GameCentral</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Fortnite</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Roblox</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="top-10-games.html">Top 10 Games</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-9">
-
-        <h2>Top 10 games</h2>
-        <p>You stuck on what games to play? Well here are the top 10 games in 2020!</p>
-        <h3 id="league_of_legends">10.League of Legends</h3>
-        <img class="img-fluid"
-          src="https://cdn1.dotesports.com/wp-content/uploads/2019/09/12195522/league-of-legends.jpg">
-        <p>Leage of legends looked super good and is really addicting. It realesed in 2009 and is available
-          to
-          play on PC, Mobile, Xbox, PS4 and Nintendo Switch.
-        </p>
-        <h3 id="roblox">9.Roblox</h3>
-        <img class="img-fluid" src="https://images.rbxcdn.com/d66ae37d46e00a1ecacfe9531986690a.jpg">
-        <p>Roblox has got 10th place locked on our list.Roblox is free and you can play it on PC, Xbox, Ipad
-          and
-          Iphone.</p>
-        <h3 id="rocket_leage">8.Rocket Leage</h3>
-        <img class="img-fluid"
-          src="https://media.playstation.com/is/image/SCEA/rocket-league-listing-thumb-01-ps4-us-15jun17?$Icon$">
-        <p>I have officially never played Rocket Leage but it sounds super good! It is not free but if you
-          brought
-          it would be
-          worth it! I mean it made it to the list!Rocket Leage can be played on PC, PS4, Xbox and Nintendo Switch.</p>
-        <h3 id="overwatch">7.Overwatch</h3>
-        <img class="img-fluid" src="https://miro.medium.com/proxy/1*Qv83Tq4JD1_5c16Vs-N6jQ.jpeg">
-        <p>Overwatch, again I have never played but it sounds preety good. It is available on PC, PS4 and
-          Xbox. If
-          you have
-          Xbox live or PlaystationPlus then it's free but if not then no it is not free.</p>
-        <h3 id="red_dead_redemption_II">6.Red Dead Redemption II</h3>
-        <img class="img-fluid" src="https://i.ytimg.com/vi/eaW0tYpxyp0/maxresdefault.jpg">
-        <p>Red Dead Redemption looks pretty cool (I haven't played it) it's MA 15+ so also looks a little
-          scary.
-          Red
-          Redemption 2 can be played on Xbox, PS4 and PC.</p>
-        <h3 id="super_smash_bros:ultimate">5.Super Smash Bros: Ultimate</h3>
-        <img class="img-fluid"
-          src="https://external-preview.redd.it/n4jv213CGeaYvaHmwNOpOb_X4Q0CddoAQd2G90GAgkU.jpg?auto=webp&s=27b78230c366c71b811480a492bfbdb05894000a">
-        <p>Super Smash bros looks super good! You find a character you want and brawl! It is only available
-          on
-          nintendo switch
-          though.</p>
-        <h3 id="tom_clancy's-rainbow_six_seige">4.Tom Clancy’s Rainbow Six Seige</h3>
-        <img class="img-fluid"
-          src="https://cdn.flickeringmyth.com/wp-content/uploads/2020/01/rainbow-six-siege-600x344.png">
-        <p>Tom's Clancy's Rainbow Six Seige is a online shooter game and released in 2015. It’s available to
-          play
-          on PC, PS4
-          and Xbox.</p>
-        <h3 id="grand_theft_auto">3.Grand Theft Auto V</h3>
-        <img class="img-fluid"
-          src="https://hb.imgix.net/ad3f96dfd21531e24ab72c3821a01049c8484982.jpg?auto=compress,format&fit=crop&h=353&w=616&s=9fc123b4c723d329d164b8ab02af5284">
-        <p>Until I started doing this I had heard of this game and it sounded pretty good. It realesed in
-          2013 and
-          is
-          available to play on PS3, PS4, PS5, Xbox and PC.</p>
-        <h3 id="fortnite">2.Fortnite</h3>
-        <img class="img-fluid"
-          src="https://image-cdn.essentiallysports.com/wp-content/uploads/20200630004117/fortnite-switch-hero-1600x900.jpg">
-        <p>If you’ve never played Fortnite or even heard of it, now’s the time to give it a try.I
-          play
-          Fortnite and I love it! It realesed in 2017 and has been a big hit since. Fortnite is the #1 battle royale
-          game. It is available to play on Iphone, Ipad, Xbox, PS4, Nintendo Switch and PC.</p>
-        <h3 id="minecraft">1.Minecraft</h3>
-        <img class="img-fluid"
-          src="https://lh3.googleusercontent.com/yAtZnNL-9Eb5VYSsCaOC7KAsOVIJcY8mpKa0MoF-0HCL6b0OrFcBizURHywpuip-D6Y">
-        <p>I love Minecraft and definetly deserves #1 on our list. Minecraft realeses in 2009 and can be
-          played on
-          Xbox, PS4,
-          Nintendo Switch, Mobile and PC.</p>
-      </div>
-      <div class="col-3">
-        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link" id="v-pills-#10-tab" data-toggle="pill" href="#league_of_legends" role="tab"
-            aria-controls="v-pills-home" aria-selected="true">League of Legends</a>
-          <a class="nav-link" id="v-pills-#9" data-toggle="pill" href="#roblox" role="tab"
-            aria-controls="v-pills-profile" aria-selected="false">Roblox</a>
-          <a class="nav-link" id="v-pills-#8" data-toggle="pill" href="#rocket_leage" role="tab"
-            aria-controls="v-pills-messages" aria-selected="false">Rocket Leage</a>
-          <a class="nav-link" id="v-pills-#7" data-toggle="pill" href="#overwatch" role="tab"
-            aria-controls="v-pills-settings" aria-selected="false">Overwatch</a>
-          <a class="nav-link active" id="v-pills-#6-tab" data-toggle="pill" href="#red_dead_redemption_II" role="tab"
-            aria-controls="v-pills-home" aria-selected="true">Red Redemption II</a>
-          <a class="nav-link" id="v-pills-#5-tab" data-toggle="pill" href="#super_smash_bros:ultimate" role="tab"
-            aria-controls="v-pills-profile" aria-selected="false">Super Smash Bros: Ultimate</a>
-          <a class="nav-link" id="v-pills-#4-tab" data-toggle="pill" href="#tom_clancy's_rainbow_six_seige" role="tab"
-            aria-controls="v-pills-messages" aria-selected="false">Tom Clany's Rainbow Six Seige</a>
-          <a class="nav-link" id="v-pills-#3-tab" data-toggle="pill" href="#grand_theft_auto" role="tab"
-            aria-controls="v-pills-settings" aria-selected="false">Grand Theft Auto</a>
-          <a class="nav-link" id="v-pills-#2-tab" data-toggle="pill" href="#fortnite" role="tab"
-            aria-controls="v-pills-settings" aria-selected="false">Fortnite</a>
-          <a class="nav-link" id="v-pills-#1" data-toggle="pill" href="#minecraft" role="tab"
-            aria-controls="v-pills-settings" aria-selected="false">Minecraft</a>
-
+    <nav class="navbar navbar-dark bg-dark mb-4">
+        <a class="navbar-brand" href="index.html">GameCentral</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Fortnite</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Roblox</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="top-10-games.html">Top 10 Games</a>
+                </li>
+            </ul>
         </div>
-      </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-9">
+
+                <h2>Top 10 games</h2>
+                <p>You stuck on what games to play? Well here are the top 10 games in 2020!</p>
+                <h3 id="league_of_legends">10. League of Legends</h3>
+                <img class="img-fluid"
+                    src="https://cdn1.dotesports.com/wp-content/uploads/2019/09/12195522/league-of-legends.jpg">
+                <p>Leage of legends looked super good and is really addicting. It realesed in 2009 and is available
+                    to
+                    play on PC, Mobile, Xbox, PS4 and Nintendo Switch.
+                </p>
+                <h3 id="roblox">9. Roblox</h3>
+                <img class="img-fluid" src="https://images.rbxcdn.com/d66ae37d46e00a1ecacfe9531986690a.jpg">
+                <p>Roblox has got 10th place locked on our list. Roblox realesed in 2006. Roblox is free and you can
+                    play it on PC, Xbox, Ipad
+                    and
+                    Iphone.</p>
+                <h3 id="rocket_league">8. Rocket League</h3>
+                <img class="img-fluid"
+                    src="https://media.playstation.com/is/image/SCEA/rocket-league-listing-thumb-01-ps4-us-15jun17?$Icon$">
+                <p>I have officially never played Rocket Leage but it sounds super good! It is not free but if you
+                    brought
+                    it would be
+                    worth it! I mean it made it to the list!Rocket Leage can be played on PC, PS4, Xbox and Nintendo
+                    Switch.</p>
+                <h3 id="overwatch">7. Overwatch</h3>
+                <img class="img-fluid" src="https://miro.medium.com/proxy/1*Qv83Tq4JD1_5c16Vs-N6jQ.jpeg">
+                <p>Overwatch, again I have never played but it sounds preety good. It is available on PC, PS4 and
+                    Xbox. If
+                    you have
+                    Xbox live or PlaystationPlus then it's free but if not then no it is not free.</p>
+                <h3 id="red_dead_redemption_II">6. Red Dead Redemption II</h3>
+                <img class="img-fluid" src="https://i.ytimg.com/vi/eaW0tYpxyp0/maxresdefault.jpg">
+                <p>Red Dead Redemption looks pretty cool (I haven't played it) it's MA 15+ so also looks a little
+                    scary.
+                    Red
+                    Redemption 2 can be played on Xbox, PS4 and PC.</p>
+                <h3 id="super_smash_bros:ultimate">5. Super Smash Bros: Ultimate</h3>
+                <img class="img-fluid"
+                    src="https://external-preview.redd.it/n4jv213CGeaYvaHmwNOpOb_X4Q0CddoAQd2G90GAgkU.jpg?auto=webp&s=27b78230c366c71b811480a492bfbdb05894000a">
+                <p>Super Smash bros looks super good! You find a character you want and brawl! It is only available
+                    on
+                    nintendo switch
+                    though.</p>
+                <h3 id="tom_clancy's-rainbow_six_seige">4. Tom Clancy’s Rainbow Six Seige</h3>
+                <img class="img-fluid"
+                    src="https://cdn.flickeringmyth.com/wp-content/uploads/2020/01/rainbow-six-siege-600x344.png">
+                <p>Tom's Clancy's Rainbow Six Seige is a online shooter game and released in 2015. It’s available to
+                    play
+                    on PC, PS4
+                    and Xbox.</p>
+                <h3 id="grand_theft_auto">3. Grand Theft Auto V</h3>
+                <img class="img-fluid"
+                    src="https://hb.imgix.net/ad3f96dfd21531e24ab72c3821a01049c8484982.jpg?auto=compress,format&fit=crop&h=353&w=616&s=9fc123b4c723d329d164b8ab02af5284">
+                <p>Until I started doing this I had heard of this game and it sounded pretty good. It realesed in
+                    2013 and
+                    is
+                    available to play on PS3, PS4, PS5, Xbox and PC.</p>
+                <h3 id="fortnite">2. Fortnite</h3>
+                <img class="img-fluid"
+                    src="https://image-cdn.essentiallysports.com/wp-content/uploads/20200630004117/fortnite-switch-hero-1600x900.jpg">
+                <p>If you’ve never played Fortnite or even heard of it, now’s the time to give it a try.I
+                    play
+                    Fortnite and I love it! It realesed in 2017 and has been a big hit since. Fortnite is the #1 battle
+                    royale
+                    game. It is available to play on Iphone, Ipad, Xbox, PS4, Nintendo Switch and PC.</p>
+                <h3 id="minecraft">1. Minecraft</h3>
+                <img class="img-fluid"
+                    src="https://lh3.googleusercontent.com/yAtZnNL-9Eb5VYSsCaOC7KAsOVIJcY8mpKa0MoF-0HCL6b0OrFcBizURHywpuip-D6Y">
+                <p>I love Minecraft and definetly deserves #1 on our list. Minecraft realeses in 2009 and can be
+                    played on
+                    Xbox, PS4,
+                    Nintendo Switch, Mobile and PC.</p>
+            </div>
+            <div class="col-3">
+                <ul class="nav flex-column text-right">
+                    <li class="nav-item"><a class="nav-link" href="#league_of_legends">10. League of Legends</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#roblox">9. Roblox</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rocket_league">8. Rocket League</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#overwatch">7. Overwatch</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#red_dead_redemption_II">6. Red Dead Redemption II</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#super_smash_bros:ultimate">5. Super Smash Bros: Ultimate</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tom_clancy's_rainbow_six_seige">4. Tom Clany's Rainbow Six</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#grand_theft_auto">3. Grand Theft Auto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#fortnite">2. Fortnite</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#minecraft">1. Minecraft</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
 </body>
 
 </html>
